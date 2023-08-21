@@ -1,0 +1,31 @@
+optimize_engineSettings:
+  optimizer:
+    optuna_disable_logging: 1
+    sequence: 18
+    multiply: 100
+    drop_per_iteration: 10
+    min_thresh: 30
+    iterations: 10
+    etac_tp: 3300
+    function_: linear
+      # - non_linear
+    functions:
+        linear: 
+          intercept: -0.4831
+          b1: 0.7251
+        non_linear: 
+          intercept: 0.0859
+          b1: .0711
+          b2: .057
+    incremental_afterblowdown_kettle: -2.3130953599999997
+    incremental_blowdown_qty: -0.005856996
+    high_boiler_cutoff: 13.5
+    contribution_margin: 144
+    shutdown_rev: -484535
+    bdqty_: !!python/tuple  [1, 10]
+    kettle_level_range_u: 60
+    kettel_level_range_l: 30
+    kettel_level_max: 45
+    n_working_days: 330
+    
+
